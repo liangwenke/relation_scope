@@ -1,6 +1,6 @@
 == RelationScope
 
-This plugin just for less than 3.x.x version rails.
+This plugin just for with named scope rails version(2.3.x).
 Include name scope methods: where, joins, includes, selects, order, limit, offset, group, having
 
 
