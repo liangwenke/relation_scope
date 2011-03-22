@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = "liangwenke8@gmail.com"
   s.homepage = "http://github.com/wenke/relation_scope"
   s.summary = 'Some rails 3 activerecord relation methods for rails 2.3.x'
-  s.description = 'Some very nice name scope method as rails 3 activerecord relation methods'
+  s.description = 'Some very nice named scope methods as rails 3 activerecord relation methods'
   
   s.files        = Dir["{lib,test}/**/*", "[A-Z]*", "init.rb"] - ["Gemfile.lock"]
   s.require_path = "lib"
