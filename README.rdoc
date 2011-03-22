@@ -1,7 +1,7 @@
 == RelationScope
 
 This plugin just for rails version 2.3.x with named scope module.
-Include name scope methods: where, joins, includes, select, order, limit, offset, group, having
+Include name scope methods: where, joins, includes, selects, order, limit, offset, group, having
 
 
 == Usage

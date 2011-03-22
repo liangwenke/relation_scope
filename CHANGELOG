@@ -1,3 +1,6 @@
-0.1.0
+1.0.0
   This plugin just for rails version 2.3.x with named scope module.
-  Include name scope methods: where, joins, includes, select, order, limit, offset, group, having
+  Include name scoped methods: where, joins, includes, select, order, limit, offset, group, having
+
+1.0.1
+  rename named scope method #select to #selects, do not conflict Array#select method
