@@ -1,7 +1,7 @@
 == RelationScope
 
-This plugin just for with named scope rails version(2.3.x).
-Include name scope methods: where, joins, includes, selects, order, limit, offset, group, having
+This plugin just for rails version 2.3.x with named scope module.
+Include name scope methods: where, joins, includes, select, order, limit, offset, group, having
 
 
 == Usage
@@ -12,12 +12,8 @@ User.order('created_at DESC').where(:name => 'test').limit(2) ...
 == Install
 
   git clone http://github.com/wenke/to_csv.git OR
-  
-  on rails 2.x.x
-  ./script/plugin install git://github.com/wenke/relation_scope.git
 
-  on rails 3
-  rails plugin install git://github.com/wenke/relation_scope.git
+  ./script/plugin install git://github.com/wenke/relation_scope.git
 
 
 == Note

@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.author = "LiangWenKe"
   s.email = "liangwenke8@gmail.com"
   s.homepage = "http://github.com/wenke/relation_scope"
-  s.summary = 'Some rails 3 activerecord relation methods for rails 2.3.x'
-  s.description = 'Some very nice named scope methods as rails 3 activerecord relation methods'
+  s.summary = 'Suppords very nice named scope methods for rails 2.2.x, 2.3.x'
+  s.description = 'This gem suppords some very nice named scope methods as rails 3 activerecord relation.'
   
-  s.files        = Dir["{lib,test}/**/*", "[A-Z]*", "init.rb"] - ["Gemfile.lock"]
+  s.files = Dir["{lib,test}/**/*", "[A-Z]*", "init.rb"] - ["Gemfile.lock"]
   s.require_path = "lib"
 
   s.rubyforge_project = s.name
