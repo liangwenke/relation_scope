@@ -9,7 +9,7 @@ module RelationScope
       }
       named_scope :joins,    lambda { |joins| { :joins => joins } }
       named_scope :includes, lambda { |includes| { :include => includes } }
-      named_scope :selects,   lambda { |select| { :select => select } }
+      named_scope :selects,  lambda { |select| { :select => select } }
       named_scope :order,    lambda { |order| { :order => order } }
       named_scope :limit,    lambda { |limit| { :limit => limit } }
       named_scope :offset,   lambda { |offset| { :offset => offset } }
