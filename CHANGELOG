@@ -4,3 +4,6 @@
 
 1.0.1
   rename named scope method #select to #selects, do not conflict Array#select method
+
+1.0.2
+  update documentation
