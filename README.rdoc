@@ -4,19 +4,18 @@ This plugin just for rails version 2.3.x with named scope module.
 Include name scope methods: where, joins, includes, selects, order, limit, offset, group, having
 
 
+== Installation
+
+    gem install relation_scope
+
+
 == Usage
 
-User.order('created_at DESC').where(:name => 'test').limit(2) ...
+    User.order('created_at DESC').where(:name => 'test').limit(2)
+    User.joins(:roles).selects('distinct users.*')
 
 
-== Install
-
-  git clone http://github.com/wenke/to_csv.git OR
-
-  ./script/plugin install git://github.com/wenke/relation_scope.git
-
-
-== Note
+== License
 
 
 Copyright (c) 2011 [liangwenke8@gmail.com], released under the MIT license
