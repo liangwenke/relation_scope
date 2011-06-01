@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name = 'relation_scope'
   s.version = version
   s.author = "LiangWenKe"
-  s.email = "liangwenke8@gmail.com"
-  s.homepage = "http://github.com/wenke/relation_scope"
+  s.email = "liangwenke.com@gmail.com"
+  s.homepage = "http://github.com/liangwenke/relation_scope"
   s.summary = 'Support very nice named scope methods for rails 2.2.x, 2.3.x'
   s.description = 'This gem support some very nice named scope methods as rails 3 activerecord relation.'
   

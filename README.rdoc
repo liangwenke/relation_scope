@@ -8,6 +8,8 @@ Include name scope methods: where, joins, includes, selects, order, limit, offse
 
     gem install relation_scope
 
+    git clone git://github.com/liangwenke/relation_scope.git
+
 
 == Usage
 
@@ -18,4 +20,4 @@ Include name scope methods: where, joins, includes, selects, order, limit, offse
 == License
 
 
-Copyright (c) 2011 [liangwenke8@gmail.com], released under the MIT license
+Copyright (c) 2011 [liangwenke.com@gmail.com], released under the MIT license
